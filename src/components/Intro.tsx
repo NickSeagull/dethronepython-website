@@ -7,11 +7,11 @@ const Intro: React.FC = () => {
   return (
     <div className='mt-6'>
       <nav className="flex justify-evenly">
-        <Link to="https://discord.gg/6CjVPf2n" target='blank' className="flex hover:font-bold">
+        <Link to="https://discord.gg/KWjVbVd6" target='blank' className="flex hover:font-bold">
           <img src={ArrowRightIcon} alt="Discord" className="mr-2" />
           <span>Join Discord</span>
         </Link>
-        <Link to="https://github.com/organizations/dethronepython/repositories/new" target='blank' className="flex hover:font-bold">
+        <Link to="https://github.com/dethronepython/website" target='blank' className="flex hover:font-bold">
           <img src={PlusIcon} alt="Project" className="mr-2" />
           <span>Add My Project</span>
         </Link>
