@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="relative text-center">
-        <img className='w-25' src='hell_background.png' alt='python-hell-2'/>
+        <img className='w-full' src='hell_background.png' alt='python-hell-2'/>
         <span className='absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1 hover:font-bold'>
           Signed: <Link target='_blank' className='underline' to='https://theagilemonkeys.com'>The Agile Monkeys.</Link>
         </span>
