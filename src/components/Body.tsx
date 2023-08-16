@@ -12,7 +12,7 @@ const Body: React.FC = () => {
       <img src='mordor_meme.png' alt='python-mordor' className='mt-10 mb-20 w-full'/>
       <p className='mb-10'>Help us build  solid open-source libraries and tools for the JVM that help developers build useful AI-driven features in a solid, reliable and scalable way.</p>
       <p className='mb-10'>There’s space for all JVM developers who want to participate in the next wave of technology, making the most of their knowledge.</p>
-      <p className='mb-10'>Join our cause now! <Link to='/discord' target='blank' className='hover:underline hover:font-bold underline'>Join our Discord</Link> and start participating in the discussion.</p>
+      <p className='mb-10'>Join our cause now! <Link to='https://discord.gg/6CjVPf2n' target='blank' className='hover:underline hover:font-bold underline'>Join our Discord</Link> and start participating in the discussion.</p>
       <p className='mb-10'>Become a “dethroner”, and songs will be sung in your name for generations to come! </p>
       <p className='mb-10'>As <Link to='https://twitter.com/pacoworks' target='blank' className='hover:underline hover:font-bold underline'>@pacoworks</Link> shared in TwitterX the other day, let’s “Yeet python into the sun”!</p>
 

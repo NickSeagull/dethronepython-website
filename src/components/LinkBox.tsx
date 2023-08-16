@@ -15,8 +15,8 @@ const LinkBox: React.FC<LinkBoxProps> = ({ backgroundColor, textColor, icon, to,
   const borderColorClass = textColor === 'black' ? 'border-black' : 'border-white';
 
   return (
-    <Link to={to}>
-      <div className={`hover:font-bold w-3/4 ${backgroundColorClass} ${textColorClass} ${borderColorClass} m-3 p-5 inline-flex items-center border-2 rounded-lg`}>
+    <Link to={to} target='blank'>
+      <div className={`hover:font-bold w-3/4 text-left ${backgroundColorClass} ${textColorClass} ${borderColorClass} m-3 p-5 inline-flex items-center border-2 rounded-lg`}>
         {icon && <img src={icon} alt="icon" className="mr-3" />}
         <span>{children}</span>
       </div>
