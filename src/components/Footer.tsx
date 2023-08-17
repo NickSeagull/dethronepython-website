@@ -17,9 +17,9 @@ const Footer: React.FC = () => {
           </LinkBox>
 
           <div className="relative -mt-2">
-            <LinkBox to='https://github.com/dethronepython/website' backgroundColor='white' textColor='black' icon={PlusIcon}>
+            <LinkBox to='https://discord.gg/KWjVbVd6' backgroundColor='white' textColor='black' icon={PlusIcon}>
               <p className='text-start'>
-                <span className='font-bold'>Want to add your JVM AI project?</span> Find us on GitHub, send a PR with your project description, and we'll vote for it!
+                <span className='font-bold'>Want to add your project?</span> Join our fellowship on Discord, and present your project for Middle-earth!
               </p>
             </LinkBox>
           </div>
