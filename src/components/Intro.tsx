@@ -20,7 +20,7 @@ const Intro: React.FC = () => {
         <img src="hell_monsters_background.png" alt="Background" className="w-25" />
         <div className="flex justify-center items-center md:absolute md:inset-auto md:bottom-10 ml-4 mr-4">
           <span className="font-silkscreen text-center md:text-4xl text-2xl text-white md:max-w-2xl">   
-              We are not saying Python is s***... did we
+              We are not saying Python is s***... are we?
           </span>
         </div>
       </div>
